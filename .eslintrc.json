@@ -24,6 +24,8 @@
     "prettier"
   ],
   "rules": {
+    "camelcase": "off",
+    "react/react-in-jsx-scope": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [
@@ -46,7 +48,7 @@
     "@typescript-eslint/no-use-before-define": [
       "error"
     ],
-    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/camelcase": "off",
     "prettier/prettier": "error",
     "import/prefer-default-export": 0
   },
